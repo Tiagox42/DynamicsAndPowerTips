@@ -13,8 +13,6 @@ Aqui, buscamos centralizar diversos materiais úteis para profissionais que trab
 
 Este repositório é **colaborativo** ! Se você conhece algum material útil, ferramenta ou dica relevante, sinta-se à vontade para contribuir. Basta abrir um **Pull Request** ou sugerir conteúdos via **Issues** . Quanto mais informações compartilharmos, melhor para toda a comunidade!
 
-**Juntos, podemos tornar o aprendizado e o trabalho com Dynamics CRM e Power Platform mais acessível e produtivo!**
-
 # Índice
 
 ### Documentação e Referências
@@ -36,7 +34,7 @@ Este repositório é **colaborativo** ! Se você conhece algum material útil, f
 * [~~Modelos de Plugins e Código em C#~~](#modelos-de-plugins-e-c%C3%B3digo-em-c)
 * [Ferramentas para Debug e Logging](#ferramentas-para-debug-e-logging)
 * [Customizações de Formulários e Views](#customiza%C3%A7%C3%B5es-de-formul%C3%A1rios-e-views)
-* [~~Manipulação de Ribbon (Comandos de Botão)~~](#manipula%C3%A7%C3%A3o-de-ribbon-comandos-de-bot%C3%A3o)
+* [Manipulação de Ribbon (Comandos de Botão)](#manipula%C3%A7%C3%A3o-de-ribbon-comandos-de-bot%C3%A3o)
 * [~~Scripts JavaScript para Dynamics 365~~](#scripts-javascript-para-dynamics-365)
 * [~~Uso de Web Resources~~](#uso-de-web-resources)
 
@@ -78,13 +76,6 @@ Este repositório é **colaborativo** ! Se você conhece algum material útil, f
 ### Principais Blogs sobre Dynamics CRM
 
 * [100 Best CRM Blogs and Websites in 2025](https://bloggers.feedspot.com/crm_blogs/) - Os melhores blogs de CRM de milhares de blogs na web e classificados por relevância, autoridade, seguidores nas redes sociais e novidades.
-* [Run JavaScript from Ribbon WorkBench in Dynamics CRM](https://venkatasubbaraopolisetty.com/2023/01/31/back-to-basics-70-run-javascript-from-ribbon-workbench-in-dynamics-crm/) - Como usar javascript no Ribbon Worbench.
-
-
-
-
-
-
 
 # Desenvolvimento e Customização
 
@@ -95,3 +86,7 @@ Este repositório é **colaborativo** ! Se você conhece algum material útil, f
 ### Customizações de Formulários e Views
 
 * [How to disable all fields in a Dynamics 365 CRM Form?](https://community.dynamics.com/blogs/post/?postid=be1d5a48-7539-418f-80dc-c283ac7edc4c) - Como desabilitar todos campos de um formulário com JavaScript.
+
+### Manipulação de Ribbon (Comandos de Botão)
+
+* [Run JavaScript from Ribbon WorkBench in Dynamics CRM](https://venkatasubbaraopolisetty.com/2023/01/31/back-to-basics-70-run-javascript-from-ribbon-workbench-in-dynamics-crm/) - Como usar javascript no Ribbon Worbench.
