@@ -67,15 +67,43 @@ Este repositório é **colaborativo** ! Se você conhece algum material útil, f
 * [~~Atalhos e Comandos Úteis~~](#atalhos-e-comandos-%C3%BAteis)
 * [~~Erros Comuns e Como Resolver~~](#erros-comuns-e-como-resolver)
 
-<!---
-* [Modelo](https://link.aqui/) - Resumo.
--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Blogs e Comunidades
 
 ### Principais Blogs sobre Dynamics CRM
 
 * [100 Best CRM Blogs and Websites in 2025](https://bloggers.feedspot.com/crm_blogs/) - Os melhores blogs de CRM de milhares de blogs na web e classificados por relevância, autoridade, seguidores nas redes sociais e novidades.
+
+
 
 # Desenvolvimento e Customização
 
