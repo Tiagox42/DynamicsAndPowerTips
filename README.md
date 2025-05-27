@@ -114,6 +114,7 @@ Este repositório é **colaborativo** ! Se você conhece algum material útil, f
 ### Customizações de Formulários e Views
 
 * [How to disable all fields in a Dynamics 365 CRM Form?](https://community.dynamics.com/blogs/post/?postid=be1d5a48-7539-418f-80dc-c283ac7edc4c) - Como desabilitar todos campos de um formulário com JavaScript.
+* [Filter By Keyword: How Do You Change the Search Columns?](https://www.newdynamicllc.com/filter-by-keyword-how-do-you-change-the-search-columns/) - Alterar campos que são pesquisados na home view de uma entidade.
 
 ### Manipulação de Ribbon (Comandos de Botão)
 
