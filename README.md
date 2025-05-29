@@ -109,7 +109,7 @@ Este repositório é **colaborativo** ! Se você conhece algum material útil, f
 
 ### Ferramentas para Debug e Logging
 
-* [How to Debug Dynamics 365 Plugins | Plugin Profiler & Plugin Trace Viewer Tutorial](https://bloggers.feedspot.com/crm_blogs/) - Como debugar plugin do Dyncamis no visual studio.
+* [How to Debug Dynamics 365 Plugins | Plugin Profiler & Plugin Trace Viewer Tutorial](https://www.youtube.com/watch?v=gwN12Ica4mI/) - Como debugar plugin do Dyncamis no visual studio.
 
 ### Customizações de Formulários e Views
 
