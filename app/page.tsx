@@ -1,6 +1,6 @@
 "use client"
 import { signIn, signOut, useSession } from "next-auth/react"
-import { Github, BookOpen, LogOut, Star, Settings, Database, Activity } from "lucide-react"
+import { Github, BookOpen, LogOut, Star, Settings } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
@@ -72,14 +72,6 @@ export default function HomePage() {
                 <Link href="/submit">Contribuir</Link>
               </Button>
 
-              {/* Botão Status do Sistema */}
-              <Button asChild variant="outline" className="bg-green-50 border-green-200 hover:bg-green-100">
-                <Link href="/status" className="flex items-center gap-2 text-green-700">
-                  <Activity className="h-4 w-4" />
-                  <span>Status</span>
-                </Link>
-              </Button>
-
               {isLoading ? (
                 <Button disabled variant="outline">
                   <span className="animate-pulse">Carregando...</span>
@@ -122,18 +114,6 @@ export default function HomePage() {
                         </DropdownMenuItem>
                       </>
                     )}
-                    <DropdownMenuItem asChild>
-                      <Link href="/status" className="cursor-pointer">
-                        <Activity className="h-4 w-4 mr-2" />
-                        Status do Sistema
-                      </Link>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem asChild>
-                      <Link href="/setup-neon" className="cursor-pointer">
-                        <Database className="h-4 w-4 mr-2" />
-                        Setup Neon
-                      </Link>
-                    </DropdownMenuItem>
                     <DropdownMenuItem onClick={handleSignOut} className="text-red-600 cursor-pointer">
                       <LogOut className="h-4 w-4 mr-2" />
                       <span>Sair</span>
