@@ -66,4 +66,3 @@ Este repositório é **colaborativo** ! Se você conhece algum material útil, f
 * [~~Melhores Práticas para Performance~~](#melhores-pr%C3%A1ticas-para-performance)
 * [~~Atalhos e Comandos Úteis~~](#atalhos-e-comandos-%C3%BAteis)
 * [~~Erros Comuns e Como Resolver~~](#erros-comuns-e-como-resolver)
-
