@@ -1,4 +1,4 @@
-import { BookOpen, Users, Code, BarChart3, Zap, Settings, Lightbulb, Shield } from "lucide-react"
+import { BookOpen, Users, Code, BarChart3, Zap, Settings, Lightbulb, Shield, Chrome } from "lucide-react"
 
 export const categories = {
   documentacao: {
@@ -47,6 +47,12 @@ export const categories = {
       "Integração com APIs Externas",
       "Uso de Connectors Customizados",
     ],
+  },
+  powerpages: {
+    label: "Power Pages e Portais",
+    labelEn: "Power Pages and Portals",
+    icon: Chrome,
+    subcategories: ["Melhores Práticas para Performance", "Atalhos e Comandos Úteis", "Erros Comuns e Como Resolver"],
   },
   ferramentas: {
     label: "Ferramentas e Utilitários",

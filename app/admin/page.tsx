@@ -26,7 +26,10 @@ interface CategoryData {
 }
 
 export default function AdminPage() {
-  const { data: session, status } = useSession()
+  //const { data: session, status } = useSession()
+  const session = { user: { name: "Tiago Dantas", email: "tiagodantas@email.com" } }
+  const status = "authenticated"
+
   const { categories, addCategory, updateCategory, deleteCategory } = useCategoriesStore()
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [editingCategory, setEditingCategory] = useState<CategoryData | null>(null)
@@ -256,7 +259,7 @@ export default function AdminPage() {
                   <Button variant="outline" onClick={exportCategories}>
                     Exportar JSON
                   </Button>
-                  <Button onClick={handleCreateCategory} className="flex items-center gap-2">
+                  <Button disabled onClick={handleCreateCategory} className="flex items-center gap-2">
                     <Plus className="h-4 w-4" />
                     Nova Categoria
                   </Button>
@@ -281,7 +284,7 @@ export default function AdminPage() {
                           <Badge variant="outline">{category.subcategories.length} subcategorias</Badge>
                         </div>
                         <div className="flex gap-2">
-                          <Button variant="outline" size="sm" onClick={() => handleEditCategory(category)}>
+                          <Button disabled variant="outline" size="sm" onClick={() => handleEditCategory(category)}>
                             <Edit className="h-4 w-4 mr-1" />
                             Editar
                           </Button>
